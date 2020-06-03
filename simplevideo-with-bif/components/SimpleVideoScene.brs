@@ -35,10 +35,10 @@ sub setContent()
   m.Image.uri="pkg:/images/DanGilbert.jpg"
   ContentNode = CreateObject("roSGNode", "ContentNode")
   ContentNode.streamFormat = "mp4"
-  ContentNode.url = "http://video.ted.com/talks/podcast/DanGilbert_2004_480.mp4"
+  ContentNode.url = "https://nbcnewsencoding.akamaized.net/nbcnews/video/2020/05/x_sedg_EDC_BIF_test1_2020May21_1419433414.mp4"
 
-  ContentNode.sdbifurl = "https://image.roku.com/ZHZscHItc2Ft/thumbnails/simplevideo-with-bif/video-sd.bif"
-  ContentNode.hdbifurl = "https://image.roku.com/ZHZscHItc2Ft/thumbnails/simplevideo-with-bif/video-hd.bif"
+  ContentNode.sdbifurl = "https://nbcnewsencoding.akamaized.net/nbcnews/video/2020/05/1419433390.sd.bif"
+  ContentNode.hdbifurl = "https://nbcnewsencoding.akamaized.net/nbcnews/video/2020/05/1419433390.hd.bif"
   m.Video.content = ContentNode
 
   'Change the buttons
